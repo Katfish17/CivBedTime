@@ -23,8 +23,11 @@ The script itself is a shell script that uses pgrep and pkill to find and kill t
 If you needed to install this, you probably shouldn't unstall it. But if you really want to, follow these steps:
 
 1) Run the command "launchctl unload ~/Library/LaunchAgents/com.katfish.CivBedTime.plist"
+
 2) Delete com.katfish.CivBedTime.plist from ~/Library/LaunchAgents
+
 3) (Optional) Delete CivBedTime.sh from ~/Scripts
+
 4) (Optional) Delete SirenNoise.mp3 from ~/Library/Sounds
 
 Oh, for those who don't know, "~/" is your user directory. So, if you are logged in as jwhite, "~/" = "/Users/jwhite/".
